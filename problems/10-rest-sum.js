@@ -11,6 +11,10 @@ restSum(0); // => 0
 
 function restSum(...otherNums) {
   // Your code here
+  console.log(otherNums.reduce(function(accum, current){
+    return accum + current
+  }, 0))
+
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

@@ -21,7 +21,7 @@ describe("countScores()", function() {
       { name: "Anthony", score: 2 },
       { name: "Winnie", score: 2 }
     ];
-    const result2 = { Anthony: 4, Fred: 4, Winnie: 6 };
+    const result2 = { Anthony: 4,  Winnie: 6, Fred: 4};
 
     assert.deepEqual(countScores(ppl), result1);
     assert.deepEqual(countScores(peeps), result2);
